@@ -34,6 +34,8 @@ public class Main {
             Scanner sc = new Scanner(System.in);
             System.out.println("Nhap 1 so nguyen");
             int n = sc.nextInt();
+            int S = 0;
+
             System.out.println("Nhap 1 so thuc");
             double d = sc.nextInt();
             System.out.println("Nhap 1 string");
@@ -41,7 +43,6 @@ public class Main {
             System.out.println("n: "+n);
             System.out.println("d: "+d);
             System.out.println("str: "+str);
-
     }
     static int tinhtong( int a, int b){
         return a + b;
